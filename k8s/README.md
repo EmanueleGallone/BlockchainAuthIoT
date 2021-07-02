@@ -12,7 +12,7 @@ kubectl -n blockchain delete ingress ingress-service
 
 ### Run in UEs container:
 ```
-curl -H "Token: 0x254ccedc328705d258661c3d1cb852a4f43763e5|0x130c1d7875056b63a3dc30cb298c12dcca0443c0|1625141904|0x3c814411520ea7c879f03009274823f6894710f481ae10a6a99594348aeb407f4bb7b6670df8952f928623d277b412e729c1a99d55d629b249cfb43547e214621c" --interface oaitun_ue3 -v "http://[NODE_IP]:30000/humidity/latest?count=10&deviceNames=Sensor_1"
+curl -H "Token: 0x67c75466b21d564bab161e0c214fb0db3bf385ad|0x130c1d7875056b63a3dc30cb298c12dcca0443c0|1625231289|0xb43e39502ee92e42deacd71ca954bb2362f701cbc30799c4c9cf471f66b917cc09e27ea0beb6a6bd392a6353656edfbe60130adb313dd8c32842f8f3597910e61c" --interface oaitun_ue3 -v "http://[NODE_IP]:30000/humidity/latest?count=10&deviceNames=Sensor_1"
 ```
 
 
