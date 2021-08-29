@@ -36,6 +36,6 @@ spec:
             - name: Security__AuthorizedOwner
               value: "0x3eFC9BACf7e88b4d1538158e42C4cf7123eC263f"
             - name: Security__TokenValidity
-              value: "3600000"
+              value: "360000000"
             - name: ASPNETCORE_ENVIRONMENT
               value: Release
