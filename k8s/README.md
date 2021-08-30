@@ -11,7 +11,7 @@ kubectl -n blockchain delete ingress ingress-service
 ```
 
 ### Run IoT Devices:
-make sure that the [IP] field points at rabbitMQ's deployment endpoint.
+make sure that the [IP] field points at rabbitMQ's deployment endpoint within the k8s cluster.
 ```
 docker run -it -e DEVICE_NAME=Sensor_1 -e DEVICE_SLEEP=5000 -e RABBITMQ_CONN="amqp://guest:guest@[IP]:30002" davidetestoni/iotdevice
 ```
