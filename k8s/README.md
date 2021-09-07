@@ -4,12 +4,6 @@ kubectl create namespace blockchain
 kubectl -n blockchain deploy -f .
 ```
 
-
-### Remove ingress:
-```
-kubectl -n blockchain delete ingress ingress-service
-```
-
 ## Run IoT Devices:
 make sure that the [NODE_IP] field points at rabbitMQ's deployment endpoint within the k8s cluster.
 ```
